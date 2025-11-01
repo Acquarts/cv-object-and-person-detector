@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Streamlit (pero mantener config para deploy)
+# .streamlit/
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Modelos YOLO descargados
+*.pt
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Temporales
+*.tmp
+temp/
+
+# Instaladores
+*.exe
+*.dll
+
+# Archivos específicos del proyecto local
+nul
+fix_dependencies.bat
+.claude/
